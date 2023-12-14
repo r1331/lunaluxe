@@ -92,4 +92,3 @@ function isPassword(password){
 function isConfirm(confirm){  
     return /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}$/.test(password);
 }
-
