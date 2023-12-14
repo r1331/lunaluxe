@@ -11,11 +11,11 @@ body {
      padding-bottom: 20px;
      font-family: 'Nunito', sans-serif;
      color: white;
-     background-image: linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+     background: #FAF3EB
 }
 
 .wrapper{
-    background-color: #202124;
+    background-color: #fff;
     position: relative;
     width:30%;
     margin: 50px auto;
@@ -30,7 +30,7 @@ body {
 }
 
     .header h2 {
-       color: #fff;
+       color: #9E8472;
     }
 
 .form {
@@ -46,9 +46,9 @@ body {
 }
     .form-control input {
         border: 1px solid transparent;
-        border-bottom-color: white;
+        border-bottom-color: #d2b48c;
         background-color: transparent;
-        color: white;
+        color: #777;
         border-radius: 0;
         font-family: inherit;
         font-size: 14px;
@@ -58,15 +58,15 @@ body {
 
         .form-control input:focus {
             outline: 0;
-            border-bottom-color: #777;
+            border-bottom-color: black;
         }
 
     .form-control.success input {
-        border-bottom-color: #2ecc71;
+        border-bottom-color: #2ecc71; 
     }
 
     .form-control.error input {
-        border-bottom-color: #e74c3c;
+        border-bottom-color: #e74c3c; 
     }
 
     .form-control i {
@@ -99,14 +99,15 @@ body {
     }
 
 .form button {
-    background-image: linear-gradient(270deg, #08AEEA 0%, #2AF598 100%);
+     background: #D5B195;
     border-radius: 15px;
-    color: #000;
+    color: #fff;
     font-size: 1rem;
     padding: 10px;
     margin-top: 20px;
     width: 100%;
-}
+} 
+
 .form-control button:focus {
             outline: 0;
             border-bottom-color: #777;
